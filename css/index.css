@@ -1,0 +1,141 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;;
+    background: gray;
+}
+.header{
+    display: flex;
+    height: 75px;
+    border-bottom: 3px solid red;
+}
+.logo{
+    margin: auto;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.nav-bar{
+    width: 50%;
+    height: 75px;
+    margin: auto;
+}
+.nav-bar ul{
+    margin-top: 10px;
+    display: flex;;
+}
+
+.nav-bar li{
+    list-style: none;
+    font-size: x-large;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav-bar li:hover{
+    background: white;
+    color:black;
+    box-shadow: 0 10px 10px black;
+    transition: all 0.3s ease-in-out;
+}
+.container{
+    width: 99%;
+    height: 500px;
+}
+.superior{
+    z-index: 10;
+    width: 99%;
+    margin-left: .5%;
+    height: 490px;
+    display: block;
+    display: inline-block;
+}
+button{
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.5) ;
+}
+.groups-btns{
+    height: 20px;
+    position: relative;
+    top: 450px;
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.groups-btns button{
+    margin: auto 5px;
+    font-size: x-large;
+    cursor: pointer;
+    outline: none;
+    background: rgba(255,255,255,0.5) ;
+}
+.btn{
+    height: 475px;
+    width: 1;
+    margin: auto 5px;
+    cursor: pointer;
+    font-size: x-large;
+}
+.btn-right{
+    float: right;
+}
+.btn-left{
+    float: left;
+}
+.container{
+    text-align: center;
+}
+.title{
+    font-size: xx-large;
+}
+.header-section h3,.header-section{
+    font-size: x-large;
+    margin: 5px;
+    background: white;
+
+}
+.ctn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sections{
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.body-section{
+    background: white;
+    margin: 5px;
+    font-size: 16pt;
+}
+.body-section p{
+    background: white;
+    text-align: justify;
+
+}
+.body-section button{
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid;
+    font-size: large;
+    background: white;
+    border-radius: 10px;
+}
+
+
+footer{
+    background: white;
+    height: 50px ;
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+}
